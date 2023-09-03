@@ -1,21 +1,21 @@
 <app-sidebar></app-sidebar>
-<div class="relative md:ml-64 bg-blueGray-100">
+<div class="global-div relative md:ml-64 bg-blueGray-100 dark:bg-gray-700">
   <app-navbar></app-navbar>
   <div
-    class="relative text-xs items-center px-4 md:px-10 mx-auto w-full md:pt-28 pt-3 pb-5 flex justify-between text-gray-400"
+    class="relative text-xs items-center px-10 md:px-12 mx-auto w-full md:pt-6 pt-3 pb-5 flex justify-between text-gray-400 dark:text-white"
   >
-    <div class="flex bg-blueGray-100 items-center">
+    <div class="flex bg-blueGray-100 dark:bg-transparent items-center">
       <span class="mr-2"><i class="fa-solid fa-table"></i></span>
       <h2>Dashboard</h2>
     </div>
     <div class="px-5 h-7 md:flex">
       <ul
-        class="flex text-xs text-center px-5 divide-x divide-gray-200 rounded-full h-6 shadow pb-4"
+        class="flex text-xs text-center px-5 divide-x divide-gray-200 rounded-full h-6 dark:shadow-none dark:border-white dark:borderdark:divide-white shadow pb-4"
       >
         <li class="w-full">
           <a
             href="#"
-            class="inline-block w-full px-3 pt-1 rounded-full focus:ring-4 focus:ring-blue-300 active focus:outline-none dark:bg-transparent"
+            class="inline-block w-full px-3 pt-1 rounded-full focus:ring-4 focus:ring-blue-300 active focus:outline-none"
             aria-current="page"
             >Today</a
           >
@@ -23,14 +23,14 @@
         <li class="w-full">
           <a
             href="#"
-            class="inline-block px-3 pt-1 w-full bg-white hover:text-gray-700 focus:ring-4 focus:ring-blue-300 focus:outline-none dark:bg-transparent"
+            class="inline-block px-3 pt-1 w-full hover:text-gray-700 focus:ring-4 focus:ring-blue-300 focus:outline-none dark:bg-transparent"
             >Week</a
           >
         </li>
         <li class="w-full">
           <a
             href="#"
-            class="inline-block px-3 pt-1 w-full bg-white hover:text-gray-700 focus:ring-4 focus:ring-blue-300 focus:outline-none dark:bg-transparent"
+            class="inline-block px-3 pt-1 w-full hover:text-gray-700 focus:ring-4 focus:ring-blue-300 focus:outline-none dark:bg-transparent"
             >Month</a
           >
         </li>
@@ -43,7 +43,7 @@
         </li>
       </ul>
       <div
-        class="ml-3 bg-transparent h-6 flex items-center rounded-full px-5 py-0 shadow"
+        class="ml-3 bg-transparent dark:shadow-white dark:divide-white h-6 flex items-center rounded-full px-5 py-0 shadow"
       >
         <span class="mr-2"><i class="fa-solid fa-calendar-day"></i></span>
         <a href="#" class="" aria-current="page">24 Mar - 23 Apr 2019</a>
@@ -62,7 +62,7 @@
         <div class="flex flex-wrap">
           <div class="w-full lg:w-1/6 xl:w-1/6 px-4">
             <div
-              class="relative flex flex-col min-w-0 break-words bg-white rounded mb-6 xl:mb-0 shadow-lg"
+              class="relative flex flex-col min-w-0 break-words bg-white dark:bg-gray-600 dark:text-white rounded mb-6 xl:mb-0 shadow-lg"
             >
               <div class="flex-auto p-4">
                 <div class="flex flex-wrap">
@@ -86,7 +86,7 @@
           </div>
           <div class="w-full lg:w-1/6 xl:w-1/6 px-4">
             <div
-              class="relative flex flex-col min-w-0 break-words bg-white rounded mb-6 xl:mb-0 shadow-lg"
+              class="relative flex flex-col min-w-0 break-words bg-white rounded dark:bg-gray-600 dark:text-white mb-6 xl:mb-0 shadow-lg"
             >
               <div class="flex-auto p-4">
                 <div class="flex flex-wrap">
@@ -110,7 +110,7 @@
           </div>
           <div class="w-full lg:w-1/6 xl:w-1/6 px-4">
             <div
-              class="relative flex flex-col min-w-0 break-words bg-white rounded mb-6 xl:mb-0 shadow-lg"
+              class="relative flex flex-col min-w-0 break-words bg-white dark:bg-gray-600 dark:text-white rounded mb-6 xl:mb-0 shadow-lg"
             >
               <div class="flex-auto p-4">
                 <div class="flex flex-wrap">
@@ -134,7 +134,7 @@
           </div>
           <div class="w-full lg:w-1/6 xl:w-1/6 px-4">
             <div
-              class="relative flex flex-col min-w-0 break-words bg-white rounded mb-6 xl:mb-0 shadow-lg"
+              class="relative flex flex-col min-w-0 break-words bg-white dark:bg-gray-600 dark:text-white rounded mb-6 xl:mb-0 shadow-lg"
             >
               <div class="flex-auto p-4">
                 <div class="flex flex-wrap">
@@ -158,7 +158,7 @@
           </div>
           <div class="w-full lg:w-1/6 xl:w-1/6 px-4">
             <div
-              class="relative justify-center flex flex-col min-w-0 break-words bg-white rounded mb-6 xl:mb-0 shadow-lg"
+              class="relative justify-center flex flex-col min-w-0 break-words dark:bg-gray-600 dark:text-white bg-white rounded mb-6 xl:mb-0 shadow-lg"
             >
               <div class="flex-auto p-4">
                 <div class="flex flex-wrap">
@@ -182,7 +182,7 @@
           </div>
           <div class="w-full lg:w-1/6 xl:w-1/6 px-4">
             <div
-              class="relative flex flex-col min-w-0 break-words bg-white rounded mb-6 xl:mb-0 shadow-lg"
+              class="relative flex flex-col min-w-0 break-words bg-white dark:bg-gray-600 dark:text-white rounded mb-6 xl:mb-0 shadow-lg"
             >
               <div class="flex-auto p-4">
                 <div class="flex flex-wrap">
@@ -212,16 +212,18 @@
     <div class="flex flex-wrap mt-4">
       <div class="w-full mb-12 xl:mb-0 px-4">
         <div
-          class="relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded"
+          class="relative flex flex-col min-w-0 break-words bg-white dark:bg-gray-600 dark:text-white w-full mb-6 shadow-lg rounded"
         >
           <div class="block w-full overflow-x-auto">
             <table
               class="chart items-center w-full bg-transparent border-collapse"
             >
               <thead>
-                <tr class="bg-blueGray-50 text-blueGray-500">
+                <tr
+                  class="bg-blueGray-50 text-blueGray-500 dark:bg-gray-600 dark:text-white"
+                >
                   <th
-                    class="px-6 align-middle border border-solid border-blueGray-100 py-3 text-xs border-l-0 border-r-0 whitespace-nowrap font-semibold text-left"
+                    class="px-6 border-0 align-middle border border-solid border-blueGray-100 dark:bg-gray-600 dark:text-white py-3 text-xs border-l-0 border-r-0 whitespace-nowrap font-semibold text-left"
                   >
                     Dounle Click Campaing Stats
                   </th>
@@ -233,7 +235,7 @@
                   <th></th>
                   <th></th>
                   <th
-                    class="px-6 align-middle border border-solid border-blueGray-100 py-3 text-xs border-l-0 border-r-0 whitespace-nowrap font-semibold text-left"
+                    class="px-6 border-0 align-middle border border-solid border-blueGray-100 dark:bg-gray-600 dark:text-white py-3 text-xs border-l-0 border-r-0 whitespace-nowrap font-semibold text-left"
                   >
                     <i class="fa-solid fa-ellipsis"></i>
                   </th>
@@ -314,7 +316,7 @@
                 </tr>
                 <tr class="chart-bars">
                   <td
-                    class="border-t-0 px-12 p-2 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap text-left"
+                    class="border-t-0 border-b-2 px-12 p-2 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap text-left"
                   ></td>
                   <td
                     class="border-t-0 px-12 p-2 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap text-left"
@@ -387,42 +389,42 @@
     <div class="flex flex-wrap mt-4">
       <div class="w-full xl:w-8/12 mb-12 xl:mb-0 px-4">
         <div
-          class="relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded"
+          class="relative flex flex-col min-w-0 break-words dark:bg-gray-600 dark:text-white bg-white w-full mb-6 shadow-lg rounded"
         >
           <div class="block w-full overflow-x-auto">
             <table class="items-center w-full bg-transparent border-collapse">
               <thead>
                 <tr>
                   <th
-                    class="px-6 bg-blueGray-50 text-blueGray-500 align-middle border border-solid border-blueGray-100 py-3 text-xs border-l-0 border-r-0 whitespace-nowrap font-semibold text-left"
+                    class="px-6 bg-blueGray-50 dark:bg-gray-600 text-blueGray-500 align-middle border border-solid border-blueGray-100 dark:border-gray-600 dark:text-white py-3 text-xs border-l-0 border-r-0 whitespace-nowrap font-semibold text-left"
                   >
                     Channel
                   </th>
                   <th
-                    class="px-6 bg-blueGray-50 text-blueGray-500 align-middle border border-solid border-blueGray-100 py-3 text-xs border-l-0 border-r-0 whitespace-nowrap font-semibold text-left"
+                    class="px-6 bg-blueGray-50 dark:bg-gray-600 text-blueGray-500 align-middle border border-solid border-blueGray-100 dark:border-gray-600 dark:text-white py-3 text-xs border-l-0 border-r-0 whitespace-nowrap font-semibold text-left"
                   >
                     Sesions
                   </th>
                   <th
-                    class="px-6 bg-blueGray-50 text-blueGray-500 align-middle border border-solid border-blueGray-100 py-3 text-xs border-l-0 border-r-0 whitespace-nowrap font-semibold text-left"
+                    class="px-6 bg-blueGray-50 dark:bg-gray-600 text-blueGray-500 align-middle border border-solid border-blueGray-100 dark:border-gray-600 dark:text-white py-3 text-xs border-l-0 border-r-0 whitespace-nowrap font-semibold text-left"
                   >
                     % of Traffic
                   </th>
                   <th
-                    class="px-6 bg-blueGray-50 text-blueGray-500 align-middle border border-solid border-blueGray-100 py-3 text-xs border-l-0 border-r-0 whitespace-nowrap font-semibold text-left"
+                    class="px-6 bg-blueGray-50 dark:bg-gray-600 text-blueGray-500 align-middle border border-solid border-blueGray-100 dark:border-gray-600 dark:text-white py-3 text-xs border-l-0 border-r-0 whitespace-nowrap font-semibold text-left"
                   >
                     Goal Rate
                   </th>
                   <th
-                    class="px-6 bg-blueGray-50 text-blueGray-500 align-middle border border-solid border-blueGray-100 py-3 text-xs border-l-0 border-r-0 whitespace-nowrap font-semibold text-left"
+                    class="px-6 bg-blueGray-50 dark:bg-gray-600 text-blueGray-500 align-middle border border-solid border-blueGray-100 dark:border-gray-600 dark:text-white py-3 text-xs border-l-0 border-r-0 whitespace-nowrap font-semibold text-left"
                   >
                     Goals
                   </th>
                   <th
-                    class="px-6 bg-blueGray-50 text-blueGray-500 align-middle border border-solid border-blueGray-100 py-3 text-xs border-l-0 border-r-0 whitespace-nowrap font-semibold text-left"
+                    class="px-6 bg-blueGray-50 dark:bg-gray-600 text-blueGray-500 align-middle border border-solid border-blueGray-100 dark:border-gray-600 py-3 dark:text-whitetext-xs border-l-0 border-r-0 whitespace-nowrap font-semibold text-left"
                   ></th>
                   <th
-                    class="px-6 bg-blueGray-50 text-blueGray-500 align-middle border border-solid border-blueGray-100 py-3 text-xs uppercase border-l-0 border-r-0 whitespace-nowrap font-semibold text-left"
+                    class="px-6 bg-blueGray-50 dark:bg-gray-600 text-blueGray-500 align-middle border border-solid border-blueGray-100 dark:text-white dark:border-gray-600 py-3 text-xs uppercase border-l-0 border-r-0 whitespace-nowrap font-semibold text-left"
                   >
                     <i class="fa-solid fa-ellipsis"></i>
                   </th>
@@ -651,22 +653,22 @@
       </div>
       <div class="w-full xl:w-4/12 px-4">
         <div
-          class="relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded"
+          class="relative flex flex-col min-w-0 break-words bg-white dark:bg-gray-600 dark:text-white w-full mb-6 shadow-lg rounded"
         >
           <table class="items-center w-full bg-transparent border-collapse">
             <thead>
               <tr>
                 <th
-                  class="px-6 bg-blueGray-50 text-blueGray-500 align-middle border border-solid border-blueGray-100 py-3 text-xs border-l-0 border-r-0 whitespace-nowrap font-semibold text-left"
+                  class="px-6 bg-blueGray-50 text-blueGray-500 dark:bg-gray-600 dark:text-white dark:border-gray-600 align-middle border border-solid border-blueGray-100 py-3 text-xs border-l-0 border-r-0 whitespace-nowrap font-semibold text-left"
                 >
                   Top Cities
                 </th>
 
                 <th
-                  class="px-6 bg-blueGray-50 text-blueGray-500 align-middle border border-solid border-blueGray-100 py-3 text-xs border-l-0 border-r-0 whitespace-nowrap font-semibold text-left"
+                  class="px-6 bg-blueGray-50 text-blueGray-500 align-middle border border-solid dark:bg-gray-600 dark:text-white dark:border-gray-600 border-blueGray-100 py-3 text-xs border-l-0 border-r-0 whitespace-nowrap font-semibold text-left"
                 ></th>
                 <th
-                  class="px-6 bg-blueGray-50 text-blueGray-500 align-middle border border-solid border-blueGray-100 py-3 text-xs uppercase border-l-0 border-r-0 whitespace-nowrap font-semibold text-right"
+                  class="px-6 bg-blueGray-50 text-blueGray-500 align-middle border border-solid dark:bg-gray-600 dark:text-white dark:border-gray-600 border-blueGray-100 py-3 text-xs uppercase border-l-0 border-r-0 whitespace-nowrap font-semibold text-right"
                 >
                   <i class="fa-solid fa-ellipsis"></i>
                 </th>

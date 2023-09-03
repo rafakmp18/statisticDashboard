@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, HostBinding, OnInit, signal } from '@angular/core';
 import {
   Subscription,
   delay,
@@ -20,6 +20,8 @@ export class SidebarComponent implements OnInit {
   collapseShow = 'hidden';
 
   usersData: UserResponse = { results: [] };
+
+  darkMode = signal<boolean>(false);
 
   private subscription: Subscription | undefined;
 
@@ -69,4 +71,10 @@ export class SidebarComponent implements OnInit {
   toggleCollapseShow(classes: any) {
     this.collapseShow = classes;
   }
+
+  @HostBinding('class.dark') get mode() {
+    return this.darkMode();
+  }
+
+  changeDarkMode() {}
 }

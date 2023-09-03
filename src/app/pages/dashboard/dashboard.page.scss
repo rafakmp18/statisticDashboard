@@ -1,3 +1,7 @@
+.global-div {
+  height: 100vh;
+}
+
 .chart {
   td {
     border-bottom: solid 1px rgb(209 213 219);
@@ -11,6 +15,7 @@
 .chart-bars {
   td {
     position: relative;
+    border-bottom: none;
     .bar-1 {
       &::after {
         content: "";
