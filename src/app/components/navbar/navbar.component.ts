@@ -1,17 +1,20 @@
-import { Component, ElementRef, ViewChild } from '@angular/core';
-import { Router } from '@angular/router';
+import { Component } from '@angular/core';
+
+import { UserService } from 'src/app/services/user.service';
 
 @Component({
   selector: 'app-navbar',
   templateUrl: './navbar.component.html',
-  styleUrls: ['./navbar.component.scss']
+  styleUrls: ['./navbar.component.scss'],
 })
 export class NavbarComponent {
-  collapseShow = "hidden";
-  constructor() { }
+  collapseShow = 'hidden';
+  constructor(private userService: UserService) {}
 
-  ngOnInit() {
-  }
+  userData$ = this.userService.getRandomUser();
+
+  ngOnInit() {}
+
   toggleCollapseShow(classes: any) {
     this.collapseShow = classes;
   }
