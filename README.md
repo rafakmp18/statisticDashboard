@@ -12,11 +12,11 @@ El proyecto es una pagina estática en la cual se ha utilizado Tailwind CSS para
 
 ## Dark Mode
 
-El dark mode cambia dependiendo el tema que tengas en tu ordenador configurado, si estas en un tema oscuro se pondra el Dark Mode y si es claro será el Light Mode.
+El dark mode cambia dependiendo del tema que tengas en tu ordenador configurado, si estas en un tema oscuro se pondra el Dark Mode y si es un tema claro será el Light Mode.
 
 ## Usuarios dinámicos
 
-Los usuarios de la izquierda cuando se actualizan cada 10 segundos, se elimina el ultimo y se añade uno nuevo, pero se puede hacer manualmente y llamar directamente a la api cuando al lado de Contactos clickamos en el la suma +
+Los usuarios de la izquierda se actualizan cada 10 segundos, siempre se elimina el ultimo y se añade uno nuevo, pero se puede hacer manualmente y cuando clickemos en el + al lado de Contacos, se restea el contador de 10 segundos y se hace una llamada.
 
 ![Texto alternativo](src/assets/img/src/assets/img/1.png)
 
