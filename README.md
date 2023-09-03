@@ -8,7 +8,7 @@ Cuando se copie el repositorio, hacer un `npm install` para poder instalar las d
 
 ## Proyecto
 
-El proyecto es una pagina estática en la cual se ha utilizado Tailwind CSS para todo el tema del maqueta y a su vez se ha implementado el Dark Mode.
+El proyecto es una pagina estática en la cual se ha utilizado Tailwind CSS para todo el tema del maquetado y a su vez se ha implementado el Dark Mode.
 
 ## Dark Mode
 
