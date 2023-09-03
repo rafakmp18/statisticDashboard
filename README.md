@@ -1,27 +1,29 @@
 # StatisticDashboard
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.1.
+Este proyecto ha sido creado con [Angular CLI](https://github.com/angular/angular-cli) en su version 16.2.1.
 
-## Development server
+## Arrancar el proyecto
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+Cuando se copie el repositorio, hacer un `npm install` para poder instalar las dependencias y se seguido un `npm start` para poder arrancar el proyecto.
 
-## Code scaffolding
+## Proyecto
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+El proyecto es una pagina estática en la cual se ha utilizado Tailwind CSS para todo el tema del maqueta y a su vez se ha implementado el Dark Mode.
 
-## Build
+## Dark Mode
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+El dark mode cambia dependiendo el tema que tengas en tu ordenador configurado, si estas en un tema oscuro se pondra el Dark Mode y si es claro será el Light Mode.
 
-## Running unit tests
+## Usuarios dinámicos
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Los usuarios de la izquierda cuando se actualizan cada 10 segundos, se elimina el ultimo y se añade uno nuevo, pero se puede hacer manualmente y llamar directamente a la api cuando al lado de Contactos clickamos en el la suma +
 
-## Running end-to-end tests
+![Texto alternativo](src/assets/img/src/assets/img/1.png)
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+## Galeria
 
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+![Texto alternativo](src/assets/img/src/assets/img/2.png)
+![Texto alternativo](src/assets/img/src/assets/img/3.png)
+![Texto alternativo](src/assets/img/src/assets/img/4.png)
+![Texto alternativo](src/assets/img/src/assets/img/5.png)
+![Texto alternativo](src/assets/img/src/assets/img/6.png)
