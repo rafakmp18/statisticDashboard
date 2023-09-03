@@ -1,8 +1,57 @@
 .chart {
   td {
     border-bottom: solid 1px rgb(209 213 219);
-    &:last-of-type {
+    &:last-child,
+    &:first-child {
       border: none;
+    }
+  }
+}
+
+.chart-bars {
+  td {
+    position: relative;
+    .bar-1 {
+      &::after {
+        content: "";
+        position: absolute;
+        background-color: #a855f7;
+        left: 15px;
+        bottom: 32px;
+        width: 15px;
+        height: 73px;
+        color: white;
+        text-align: center;
+        transform-origin: left bottom;
+      }
+    }
+    .bar-2 {
+      &::after {
+        content: "";
+        position: absolute;
+        background-color: #d1d5db;
+        left: 43px;
+        bottom: 32px;
+        width: 15px;
+        height: 83px;
+        color: white;
+        text-align: center;
+        transform-origin: left bottom;
+      }
+    }
+    .bar-3 {
+      &::after {
+        content: "";
+        position: absolute;
+        background-color: #a855f7;
+        left: 70px;
+        bottom: 32px;
+        width: 15px;
+        height: 63px;
+        color: white;
+        text-align: center;
+        transform-origin: left bottom;
+      }
     }
   }
 }
