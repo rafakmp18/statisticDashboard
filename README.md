@@ -4,7 +4,7 @@ Este proyecto ha sido creado con [Angular CLI](https://github.com/angular/angula
 
 ## Arrancar el proyecto
 
-Cuando se copie el repositorio, hacer un `npm install` para poder instalar las dependencias y se seguido un `npm start` para poder arrancar el proyecto.
+Cuando se copie el repositorio, hacer un `npm install` para poder instalar las dependencias y de seguido un `npm start` para poder arrancar el proyecto.
 
 ## Proyecto
 
