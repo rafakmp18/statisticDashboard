@@ -22,8 +22,8 @@ Los usuarios de la izquierda se actualizan cada 10 segundos, siempre se elimina 
 
 ## Galeria
 
-<img src="src/assets/img/2.png" width="250">
-<img src="src/assets/img/3.png" width="250">
+<img src="src/assets/img/2.png" width="500">
+<img src="src/assets/img/3.png" width="500">
 <img src="src/assets/img/4.png" width="250">
 <img src="src/assets/img/5.png" width="250">
 <img src="src/assets/img/6.png" width="250">
