@@ -1,0 +1,76 @@
+<nav
+  class="md:left-0 md:block md:fixed md:top-0 md:bottom-0 md:overflow-y-auto md:flex-row md:flex-nowrap md:overflow-hidden shadow-xl text-white flex flex-wrap items-center bg-blue-950 justify-between absolute md:w-14 z-10 py-4 px-2"
+>
+  <div
+    class="md:flex-col md:items-stretch md:min-h-full md:flex-nowrap px-0 flex flex-wrap items-center justify-between w-full mx-auto"
+  >
+    <button
+      class="cursor-pointer mb-20 opacity-50 px-auto flex justify-center text-m leading-none bg-transparent rounded border border-solid border-transparent"
+      type="button"
+    >
+      <i class="fas fa-bars"></i>
+    </button>
+
+    <ul class="md:hidden items-center flex flex-wrap list-none">
+      <li class="inline-block relative"></li>
+      <li class="inline-block relative"></li>
+    </ul>
+
+    <div
+      class="md:flex md:flex-col md:items-stretch md:opacity-100 md:relative md:mt-4 md:shadow-none shadow absolute top-0 left-0 right-0 z-40 overflow-y-auto overflow-x-hidden h-auto items-center flex-1 rounded"
+      [ngClass]="collapseShow"
+    >
+      <ul
+        class="md:flex-col md:min-w-full flex justify-center items-center flex-col list-none text-xl"
+      >
+        <li class="items-center mb-2 hover:text-white">
+          <a
+            class="text-blueGray-400 active:text-blueGray-500 hover:text-blueGray-500 py-3 font-bold block"
+            href="#"
+            ><i class="fas fa-house"></i
+          ></a>
+        </li>
+        <li class="items-center mb-2">
+          <a
+            class="text-blueGray-400 hover:text-blueGray-500 py-3 font-bold block"
+            href="#"
+          >
+            <i class="fas fa-comment-dots"></i
+          ></a>
+        </li>
+        <li class="items-center mb-2">
+          <a
+            class="text-blueGray-400 hover:text-blueGray-500 py-3 font-bold block"
+            href="#"
+          >
+            <i class="fas fa-calendar-day"></i
+          ></a>
+        </li>
+        <li class="items-cente mb-2">
+          <a
+            class="text-blueGray-400 hover:text-blueGray-500 py-3 font-bold block"
+            href="#"
+          >
+            <i class="fas fa-user"></i
+          ></a>
+        </li>
+        <li class="items-center mb-2">
+          <a
+            class="text-blueGray-400 hover:text-blueGray-500 py-3 font-bold block"
+            href="#"
+          >
+            <i class="fas fa-users"></i>
+          </a>
+        </li>
+        <li class="items-center mb-2">
+          <a
+            class="text-blueGray-400 hover:text-blueGray-500 py-3 font-bold block"
+            href="#"
+          >
+            <i class="fas fa-image"></i
+          ></a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
