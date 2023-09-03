@@ -18,7 +18,7 @@ El dark mode cambia dependiendo del tema que tengas en tu ordenador configurado,
 
 Los usuarios de la izquierda se actualizan cada 10 segundos, siempre se elimina el ultimo y se añade uno nuevo, pero se puede hacer manualmente y cuando clickemos en el + al lado de Contacos, se restea el contador de 10 segundos y se hace una llamada.
 
-![Texto alternativo](/src/assets/img/src/assets/img/1.png)
+![Texto alternativo](1.png)
 
 ## Galeria
 
